@@ -7,7 +7,7 @@ Strategy is a behavioral design pattern that lets you define a family of algorit
 
 ## Structure
 
-![Implementation of Strategy Pattern with SOLID using Dependency Injection](https://github.com/juniordsi/DesignPatterns_GoF/blob/main/_Behavioral/Strategy/Strategy%20with%20SOLID%20using%20D.I..jpg)
+![Implementation of Strategy Pattern with SOLID using Dependency Injection](https://github.com/juniordsi/DesignPatterns/blob/main/Behavioral/Strategy/Strategy%20with%20SOLID%20using%20D.I..jpg)
 
 ### References:
 - https://refactoring.guru/design-patterns/strategy
