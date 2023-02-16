@@ -14,7 +14,6 @@ internal sealed class PaymentContext : IPaymentContext
    public bool process(EPaymentType type, object data)
    {
       var strategy = _resolver.resolve(type);
-
       return strategy.execute(data);
    }
 }
