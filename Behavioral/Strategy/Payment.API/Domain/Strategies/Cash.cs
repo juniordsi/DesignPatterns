@@ -1,10 +1,11 @@
+using System;
 using Strategy.Payment.Contracts;
 
 namespace Strategy.Payment.Strategies;
 
 internal class Cash : IPaymentStrategy
 {
-   public EPaymentType Type { get ; }
+   public EPaymentType Type { get; private set; }
 
    public Cash()
    {

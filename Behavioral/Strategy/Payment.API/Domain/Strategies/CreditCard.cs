@@ -1,10 +1,11 @@
+using System;
 using Strategy.Payment.Contracts;
 
 namespace Strategy.Payment.Strategies;
 
 internal class CreditCard : IPaymentStrategy
 {
-   public EPaymentType Type { get; }
+   public EPaymentType Type { get; private set; }
 
    public CreditCard()
    {
