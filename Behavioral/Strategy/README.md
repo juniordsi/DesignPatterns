@@ -1,5 +1,5 @@
 # Strategy Design Pattern
-Strategy is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
+Strategy is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their **objects interchangeable**.
 
 ## Intent
 - Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from the clients that use it.
