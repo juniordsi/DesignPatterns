@@ -1,3 +1,5 @@
 **/_references
-
 **/*.draw.io
+# .NET build output
+**/bin/
+**/obj/
