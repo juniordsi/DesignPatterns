@@ -1,11 +1,13 @@
 # Builder Design Pattern
-Builder is a creational design pattern that lets you construct complex objects step by step. It enables the creation of different representations of an object using the same construction process.
+Builder is a creational design pattern that lets you construct complex objects step by step. It enables creating different representations of an object using the same construction process.
 
 ## Intent
 - Separate the construction of a complex object from its representation.
-- Provide control over the building process so that the same steps can create different objects.
+- Provide control over the building process so the same steps can create different objects.
 
-.NET uses the builder pattern in various libraries such as `ConfigurationBuilder` and `WebHostBuilder` which provide fluent methods for configuring and constructing objects.
+.NET uses the builder pattern in libraries such as `ConfigurationBuilder` and `WebHostBuilder`, which expose fluent methods for configuring and constructing objects.
+
+This demo shows an `EmailBuilder` that incrementally builds an `EmailMessage` object. The message can then be sent using a service implementation.
 
 ### References
 - https://refactoring.guru/design-patterns/builder
